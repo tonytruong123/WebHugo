@@ -12,7 +12,7 @@ theme = 'anatole-master'
 title = "Kafka Engdoc"
 author = "By Team Messaging Platform"
 description = "Kafka Documentation Page"
-profilePicture = "/images/Bellingham.jpg"
+profilePicture = "/images/Kafka.jpg"
 readMore = true
 #contactFormAction = "https://formspree.io/f/your-form-hash-here"
 

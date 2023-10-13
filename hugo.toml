@@ -1,23 +1,12 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
-title = 'Demo for Hugo'
+title = 'Kafka EngDoc'
 
-theme = 'anatole-master'
+theme = 'hextra-main'
 
 # theme as hugo module
 #theme = "github.com/lxndrblz/anatole"
 # theme as git submodule
-
-[module]
-    # uncomment line below for temporary local development of module,
-    # when using a 'theme' as a git submodule or git cloned files
-    replacements = "github.com/colinwilson/lotusdocs -> lotusdocs"
-    [[module.imports]]
-        path = "github.com/colinwilson/lotusdocs"
-        disable = false
-    [[module.imports]]
-        path = "github.com/gohugoio/hugo-mod-bootstrap-scss/v5"
-        disable = false
 
 [params]
 title = "Kafka Engdoc"
@@ -29,6 +18,25 @@ readMore = true
 
 [author]
   name = "Linh"
+
+defaultContentLanguage = "en"
+
+[languages]
+  [languages.en]
+  languageName = "English"
+  weight = 1
+  title = "Hextra"
+
+  [languages.ja]
+  languageName = "日本語"
+  weight = 2
+  title = "Hextra テーマ"
+
+  [languages.zh-cn]
+  languageName = "简体中文"
+  languageCode = "zh-CN"
+  weight = 3
+  title = "Hextra"
 
 summarylength = 10
 enableEmoji = true
@@ -79,19 +87,19 @@ localizedDates = false
   url = "/"
 
   [[menu.main]]
-  name = "Posts"
+  name = "About"
   weight = 200
-  identifier = "posts"
-  url = "/posts/"
+  identifier = "about"
+  url = "/about/"
 
   [[menu.main]]
-  name = "Pinned"
+  name = "Documentation"
   weight = 150
-  identifier = "pinned"
-  url = "/series/"
+  identifier = "documentation"
+  url = "/docs/"
 
   [[menu.main]]
-  name = "Tags"
+  name = "Blog"
   weight = 300
-  identifier = "tags"
-  url = "/tags/"
+  identifier = "blog"
+  url = "/blog/"

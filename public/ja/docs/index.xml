@@ -1,0 +1,32 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hextra テーマ – Hextraへようこそ</title>
+    <link>http://example.org/ja/docs/</link>
+    <description>Recent content in Hextraへようこそ on Hextra テーマ</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    
+	  <atom:link href="http://example.org/ja/docs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>はじめに</title>
+      <link>http://example.org/ja/docs/getting-started/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/ja/docs/getting-started/</guid>
+      <description>
+        
+        
+        &lt;p&gt;プロジェクトの紹介。&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,6 +1,6 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
-title = 'Kafka EngDoc'
+#title = 'Kafka EngDoc'
 
 theme = 'hextra-main'
 
@@ -9,12 +9,24 @@ theme = 'hextra-main'
 # theme as git submodule
 
 [params]
-title = "Kafka Engdoc"
+#title = "Kafka Engdoc"
 author = "By Team Messaging Platform"
 description = "Kafka Documentation Page"
 profilePicture = "/images/Kafka.jpg"
 readMore = true
 #contactFormAction = "https://formspree.io/f/your-form-hash-here"
+
+[params.navbar]
+displayTitle = true
+displayLogo = true
+
+[params.navbar.logo]
+#under static directory
+path = "images/Kafka_Logo.png"
+dark = "images/Kafka_Pic_White.png"
+link = "/"
+width = 40
+height = 20
 
 [author]
   name = "Linh"
@@ -25,18 +37,18 @@ defaultContentLanguage = "en"
   [languages.en]
   languageName = "English"
   weight = 1
-  title = "Hextra"
+  title = "Streaming Data"
 
   [languages.ja]
   languageName = "日本語"
   weight = 2
-  title = "Hextra テーマ"
+  title = "Streaming Data テーマ"
 
   [languages.zh-cn]
   languageName = "简体中文"
   languageCode = "zh-CN"
   weight = 3
-  title = "Hextra"
+  title = "Streaming Data"
 
 summarylength = 10
 enableEmoji = true

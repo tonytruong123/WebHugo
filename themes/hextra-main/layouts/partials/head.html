@@ -24,12 +24,6 @@
   {{ partialCached "head-css.html" . }}
 
 
-  <!-- Google Analytics -->
-  {{- if and .Site.GoogleAnalytics (eq hugo.Environment "production") }}
-    <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin />
-    {{ partial "google-analytics.html" . }}
-  {{- end }}
-
 
   <script>
     /* Initialize light/dark mode */
